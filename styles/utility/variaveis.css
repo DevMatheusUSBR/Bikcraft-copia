@@ -1,0 +1,28 @@
+:root {
+    /* cores */
+    --c-00: #FFF;
+    --c-01: #F7F7F7;
+    --c-02: #EDEDED;
+    --c-03: #DEDEDE;
+    --c-04: #CCC;
+    --c-05: #B3B3B3;
+    --c-06: #9C9C;
+    --c-07: #707070;
+    --c-08: #353535;
+    --c-09: #404040;
+    --c-10: #2E2E2E;
+    --c-11: #121212;
+    --c-12: #000;
+    --c-p1: #FB0;
+    --c-p2: #F2AD0C;
+    --c-p3: #A66E00;
+    --c-p4: #640;
+    --c-p5: #320;
+
+    /* fontes */
+    --fonte-principal: 'Poppins', sans-serif;
+    --fonte-secundaria: 'Roboto', sans-serif;
+
+    /* espaçamento */
+    --espacamento-base: 7.5rem;
+}
