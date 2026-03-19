@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--fonte-principal);
+    line-height: 1.33;
+}
+
+p {
+    font-family: var(--fonte-secundaria);
+    line-height: 1.5;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    font-family: var(--fonte-principal);
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+}

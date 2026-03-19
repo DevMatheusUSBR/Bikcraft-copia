@@ -1,4 +1,39 @@
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+
+.ponto {
+    color: var(--c-p1);
+}
+
+.title {
+    color: var(--c-00);
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.title.black {
+    color: var(--c-12);
+}
+
+.texto {
+    color: var(--c-05);
+    font-size: 1.5rem;
+}
+
+.ponto {
+    color: var(--c-p1);
+}
+
+.botao {
+    background: linear-gradient(to right, #FB0, #F2A60C);
+    color: var(--c-p5);
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
 }
