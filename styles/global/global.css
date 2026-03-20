@@ -11,7 +11,7 @@ h4,
 h5,
 h6 {
     font-family: var(--fonte-principal);
-    line-height: 1.33;
+    line-height: 1;
 }
 
 p {
@@ -29,4 +29,14 @@ a {
 
 ul {
     list-style: none;
+}
+
+picture {
+    width: 100%;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
 }

@@ -9,7 +9,7 @@
     color: var(--c-p1);
 }
 
-.title {
+.titulo {
     color: var(--c-00);
     font-size: 4rem;
     font-weight: 600;
@@ -31,9 +31,57 @@
 .botao {
     background: linear-gradient(to right, #FB0, #F2A60C);
     color: var(--c-p5);
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 600;
     border-radius: 4px;
     padding: 1rem 2rem;
+    width: fit-content;
     text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+    .titulo {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .titulo {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .titulo {
+        font-size: 2rem;
+    }
+
+    .texto {
+        font-size: 1.25rem;
+    }
+
+    .botao {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .titulo {
+        font-size: 1.5rem;
+    }
+
+    .texto {
+        font-size: 1rem;
+    }
+
+    .botao {
+        font-size: 1rem;
+        padding: .75rem 1.5rem;
+    }
+}
+
+@media (max-width : 400px) {
+    .botao {
+        font-size: .875rem;
+    }
 }
