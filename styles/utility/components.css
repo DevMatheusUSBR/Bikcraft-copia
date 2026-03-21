@@ -5,6 +5,10 @@
     padding-right: 1.25rem;
 }
 
+.bg-preto {
+    background: var(--c-11);
+}
+
 .espacamento {
     padding-top: var(--espacamento-base);
     padding-bottom: var(--espacamento-base);
@@ -46,6 +50,11 @@
     padding: 1rem 2rem;
     width: fit-content;
     text-transform: uppercase;
+}
+
+.botao.secundario {
+    background: var(--c-10);
+    color: var(--c-04);
 }
 
 .span_texto {
