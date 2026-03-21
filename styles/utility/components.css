@@ -5,6 +5,11 @@
     padding-right: 1.25rem;
 }
 
+.espacamento {
+    padding-top: var(--espacamento-base);
+    padding-bottom: var(--espacamento-base);
+}
+
 .ponto {
     color: var(--c-p1);
 }
@@ -13,6 +18,10 @@
     color: var(--c-00);
     font-size: 4rem;
     font-weight: 600;
+}
+
+.titulo.preto {
+    color: var(--c-12);
 }
 
 .title.black {
@@ -51,7 +60,7 @@
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     .titulo {
         font-size: 2rem;
     }
@@ -66,9 +75,6 @@
 }
 
 @media (max-width: 600px) {
-    .titulo {
-        font-size: 1.5rem;
-    }
 
     .texto {
         font-size: 1rem;
@@ -80,7 +86,11 @@
     }
 }
 
-@media (max-width : 400px) {
+@media (max-width : 480px) {
+    .titulo {
+        font-size: 1.5rem;
+    }
+
     .botao {
         font-size: .875rem;
     }

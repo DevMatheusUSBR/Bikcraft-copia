@@ -26,3 +26,13 @@
     /* espaçamento */
     --espacamento-base: 7.5rem;
 }
+
+@media (max-width: 768px) {
+    :root {
+        --espacamento-base: 3.75rem;
+    }
+
+    :root {
+        --espacamento-base: 1.5rem;
+    }
+}
