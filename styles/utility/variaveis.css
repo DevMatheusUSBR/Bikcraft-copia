@@ -31,7 +31,9 @@
     :root {
         --espacamento-base: 3.75rem;
     }
+}
 
+@media (max-width: 480px) {
     :root {
         --espacamento-base: 1.5rem;
     }

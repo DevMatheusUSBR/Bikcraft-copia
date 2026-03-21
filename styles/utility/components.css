@@ -48,6 +48,14 @@
     text-transform: uppercase;
 }
 
+.span_texto {
+    color: var(--c-05);
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
 @media (max-width: 1200px) {
     .titulo {
         font-size: 3.5rem;
@@ -87,6 +95,10 @@
 }
 
 @media (max-width : 480px) {
+    .span_texto {
+        font-size: 1rem;
+    }
+
     .titulo {
         font-size: 1.5rem;
     }
