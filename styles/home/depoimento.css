@@ -1,0 +1,80 @@
+.depoimento {
+    background: var(--c-p1);
+}
+
+.depoimento .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.depoimento img {
+    height: 100%;
+}
+
+.depoimento_conteudo {
+    padding: 2.25rem 2.25rem 5rem 5rem;
+    place-self: end;
+}
+
+.depoimento blockquote p {
+    font-family: "Merriweather", serif;
+    max-width: 32ch;
+    font-size: 2.25rem;
+    line-height: 1.33;
+    font-style: italic;
+    font-weight: 900;
+    color: var(--c-p5);
+    position: relative;
+}
+
+.depoimento_conteudo span {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    color: var(--c-p4);
+    font-weight: 700;
+    font-size: 2.25rem;
+}
+
+@media (max-width: 1200px) {
+
+    .depoimento blockquote p,
+    .depoimento blockquote span {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .depoimento blockquote p,
+    .depoimento blockquote span {
+        font-size: 1.75rem;
+    }
+
+    @media (max-width: 768px) {
+        .depoimento .container {
+            grid-template-columns: 1fr;
+        }
+
+        .depoimento_conteudo {
+            padding: 0;
+            place-self: center;
+            padding: var(--espacamento-base) 0;
+        }
+
+        .depoimento_conteudo blockquote span {
+            text-align: end;
+        }
+
+        .depoimento img {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+
+    .depoimento blockquote p,
+    .depoimento blockquote span {
+        font-size: 1.5rem;
+    }
+}
