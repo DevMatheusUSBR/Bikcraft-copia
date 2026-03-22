@@ -15,5 +15,8 @@
 @import './home/depoimento.css';
 @import './home/seguros.css';
 
+/* Seguros */
+@import './seguros/main.css';
+
 /* Termos e condições */
 @import './termos/main.css'
