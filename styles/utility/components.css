@@ -5,13 +5,18 @@
     padding-right: 1.25rem;
 }
 
-.bg-preto {
+.bg-secundario {
     background: var(--c-11);
 }
 
 .espacamento {
     padding-top: var(--espacamento-base);
     padding-bottom: var(--espacamento-base);
+}
+
+.espacamento-secundario {
+    padding-top: var(--espacamento-secundario);
+    padding-bottom: var(--espacamento-secundario);
 }
 
 .ponto {
