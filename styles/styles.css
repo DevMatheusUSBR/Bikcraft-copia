@@ -17,6 +17,7 @@
 
 /* Seguros */
 @import './seguros/main.css';
+@import './seguros/vantagens.css';
 
 /* Termos e condições */
 @import './termos/main.css'
