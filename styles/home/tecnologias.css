@@ -29,6 +29,11 @@
     background: none;
 }
 
+.tecnologias_conteudo .botao:hover {
+    color: var(--c-00);
+    border-color: var(--c-00);
+}
+
 .tecnologias_conteudo ul {
     display: flex;
     gap: 2.5rem;

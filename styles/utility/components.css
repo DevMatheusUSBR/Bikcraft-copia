@@ -55,11 +55,22 @@
     padding: 1rem 2rem;
     width: fit-content;
     text-transform: uppercase;
+
+}
+
+.botao:hover {
+    background: linear-gradient(to right, #ffd24a, #ffbe1a);
+    color: #1a1a1a;
 }
 
 .botao.secundario {
     background: var(--c-10);
     color: var(--c-04);
+}
+
+.botao.secundario:hover {
+    background: var(--c-08);
+    color: var(--c-02);
 }
 
 .span_texto {
