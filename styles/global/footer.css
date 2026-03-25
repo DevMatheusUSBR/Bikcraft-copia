@@ -25,7 +25,7 @@
     margin: 2rem 0 0 0;
 }
 
-.contato_lista,
+.contato-lista,
 .endereco {
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@
     gap: 2rem;
 }
 
-.informacao_lista {
+.informacao-lista {
     margin-top: 2rem;
     display: flex;
     flex-direction: column;

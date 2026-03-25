@@ -9,17 +9,17 @@
     align-items: center;
 }
 
-.tecnologias_conteudo {
+.tecnologias-conteudo {
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
 
-.tecnologias_conteudo h2 {
+.tecnologias-conteudo h2 {
     padding-top: 2rem;
     padding-bottom: 1.25rem
 }
 
-.tecnologias_conteudo .botao {
+.tecnologias-conteudo .botao {
     margin-top: 1.25rem;
     margin-bottom: 5rem;
     padding: 0;
@@ -29,28 +29,28 @@
     background: none;
 }
 
-.tecnologias_conteudo .botao:hover {
+.tecnologias-conteudo .botao:hover {
     color: var(--c-00);
     border-color: var(--c-00);
 }
 
-.tecnologias_conteudo ul {
+.tecnologias-conteudo ul {
     display: flex;
     gap: 2.5rem;
 }
 
-.tecnologias_conteudo li img {
+.tecnologias-conteudo li img {
     width: 24px;
 }
 
-.tecnologias_conteudo li h3 {
+.tecnologias-conteudo li h3 {
     color: var(--c-00);
     font-weight: 500;
     font-size: 1.125;
     margin: .5rem 0;
 }
 
-.tecnologias_conteudo li p {
+.tecnologias-conteudo li p {
     color: var(--c-05);
     font-weight: 400;
 }
@@ -69,7 +69,7 @@
         grid-template-columns: 1fr;
     }
 
-    .tecnologias_conteudo {
+    .tecnologias-conteudo {
         padding-top: var(--espacamento-base);
         padding-bottom: var(--espacamento-base);
     }
@@ -81,11 +81,11 @@
 
 @media (max-width: 600px) {
 
-    .tecnologias_conteudo .botao {
+    .tecnologias-conteudo .botao {
         margin-bottom: 1.25rem;
     }
 
-    .tecnologias_conteudo ul {
+    .tecnologias-conteudo ul {
         flex-direction: column;
         gap: 1.25rem;
     }

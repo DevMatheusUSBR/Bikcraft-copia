@@ -11,7 +11,7 @@
     height: 100%;
 }
 
-.depoimento_conteudo {
+.depoimento-conteudo {
     padding: 2.25rem 2.25rem 5rem 5rem;
     place-self: end;
 }
@@ -27,7 +27,7 @@
     position: relative;
 }
 
-.depoimento_conteudo span {
+.depoimento-conteudo span {
     display: block;
     font-family: 'Poppins', sans-serif;
     color: var(--c-p4);
@@ -55,13 +55,13 @@
             grid-template-columns: 1fr;
         }
 
-        .depoimento_conteudo {
+        .depoimento-conteudo {
             padding: 0;
             place-self: center;
             padding: var(--espacamento-base) 0;
         }
 
-        .depoimento_conteudo blockquote span {
+        .depoimento-conteudo blockquote span {
             text-align: end;
         }
 
