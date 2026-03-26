@@ -33,17 +33,9 @@
     color: var(--c-12);
 }
 
-.title.black {
-    color: var(--c-12);
-}
-
 .texto {
     color: var(--c-05);
     font-size: 1.5rem;
-}
-
-.ponto {
-    color: var(--c-p1);
 }
 
 .botao {
