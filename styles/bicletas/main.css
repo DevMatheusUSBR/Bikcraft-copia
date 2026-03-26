@@ -80,7 +80,7 @@
 }
 
 .pagina-bicicleta .bicicleta-bg_gradiente {
-    background: linear-gradient(to right, var(--c-00) 25%, var(--c-11) 0);
+    background: linear-gradient(to right, var(--c-00) 30%, var(--c-11) 0);
 }
 
 .pagina-bicicleta .bicicleta-bg_gradiente h2 {
