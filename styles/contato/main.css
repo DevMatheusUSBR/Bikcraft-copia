@@ -1,0 +1,93 @@
+#pagina-contato {
+    background: linear-gradient(to bottom, var(--c-11) 600px, var(--c-01) 0);
+}
+
+.formulario .container {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+}
+
+.formulario-info {
+    background: var(--c-12);
+    padding: 3.75rem;
+    border-radius: 5px 0 0 5px;
+}
+
+.formulario-info h3 {
+    color: var(--c-00);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 3.75rem;
+}
+
+.formulario-info li {
+    color: var(--c-04);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px;
+}
+
+.formulario li:nth-child(2) {
+    margin: 2rem 0
+}
+
+.formulario li:nth-child(4) {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2.5rem;
+}
+
+.formulario-preencher {
+    background: var(--c-00);
+    padding: 3.75rem;
+    border-radius: 0 5px 5px 0;
+}
+
+.formulario-preencher form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+}
+
+.formulario-preencher form div:nth-child(3),
+.formulario-preencher form div:nth-child(4) {
+    grid-column: 1 / -1;
+}
+
+.formulario-preencher form label {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: .25rem;
+}
+
+.formulario-preencher form input,
+.formulario-preencher form textarea {
+    background: var(--c-01);
+    border: 1px solid var(--c-02);
+    padding: .75rem;
+    width: 100%;
+}
+
+.formulario-preencher form input::placeholder,
+.formulario-preencher form textarea::placeholder {
+    color: var(--c-07);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.formulario-preencher form button {
+    border: none;
+    grid-column: 1 / -1;
+}
+
+@media (max-width: 800px) {
+    .formulario .container {
+        grid-template-columns: 1fr;
+    }
+}
