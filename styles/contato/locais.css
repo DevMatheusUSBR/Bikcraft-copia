@@ -1,0 +1,87 @@
+.locais .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3.75rem 2.75rem;
+}
+
+.locais .titulo {
+    grid-column: 1 / -1;
+}
+
+.locais-card {
+    background: var(--c-00);
+}
+
+.locais-card_conteudo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 3.75rem;
+}
+
+.locais-card_conteudo h3::before {
+    content: '';
+    display: block;
+    width: 12px;
+    height: 8px;
+    background: var(--c-p1);
+}
+
+.locais-card_conteudo h3 {
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--c-12);
+    grid-column: 1 / -1;
+    margin-bottom: 1rem;
+}
+
+.locais-card_endereco,
+.locais-card_contato {
+    font-size: 1rem;
+    color: var(--c-08);
+    margin-bottom: 2rem;
+    position: relative;
+    border-left: 2px solid var(--c-02);
+    padding-left: .75rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+
+.locais-card_conteudo>p::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url('../../assets/img/icones/horario.svg');
+}
+
+.locais-card_conteudo>p {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    color: var(--c-12);
+    font-family: 'Poppins', sans-serif;
+    font-size: .875rem;
+    font-weight: 600;
+    grid-column: 1 / -1;
+}
+
+@media (max-width: 768px) {
+    .locais .container {
+        grid-template-columns: 1fr;
+    }
+
+    .locais .container {
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .locais-card_conteudo {
+        grid-template-columns: 1fr;
+    }
+}

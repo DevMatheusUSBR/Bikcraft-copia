@@ -91,3 +91,11 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 600px) {
+
+    .formulario-preencher form div:nth-child(1),
+    .formulario-preencher form div:nth-child(2) {
+        grid-column: 1 / -1;
+    }
+}

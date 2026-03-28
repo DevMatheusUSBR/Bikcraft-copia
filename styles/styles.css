@@ -30,6 +30,7 @@
 
 /* Contato */
 @import './contato/main.css';
+@import './contato/locais.css';
 
 /* Termos e condições */
 @import './termos/main.css'
