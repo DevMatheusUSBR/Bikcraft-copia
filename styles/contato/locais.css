@@ -73,9 +73,6 @@
 @media (max-width: 768px) {
     .locais .container {
         grid-template-columns: 1fr;
-    }
-
-    .locais .container {
         gap: 2rem;
     }
 }

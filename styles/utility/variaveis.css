@@ -40,6 +40,6 @@
 @media (max-width: 480px) {
     :root {
         --espacamento-base: 1.5rem;
-        --espacamento-secundario: 1rem
+        --espacamento-secundario: 1rem;
     }
 }

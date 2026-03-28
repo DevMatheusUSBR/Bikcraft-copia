@@ -79,7 +79,7 @@
 @media (max-width: 1000px) {
     .cards-lista {
         grid-template-columns: 1fr;
-        gap: 0
+        gap: 0;
     }
 }
 
@@ -90,9 +90,6 @@
 
     .card-conteudo ul {
         font-size: .875rem;
-    }
-
-    .card-conteudo ul {
         padding: 1.25rem 0;
     }
 

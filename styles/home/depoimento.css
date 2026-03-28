@@ -49,25 +49,25 @@
     .depoimento blockquote span {
         font-size: 1.75rem;
     }
+}
 
-    @media (max-width: 768px) {
-        .depoimento .container {
-            grid-template-columns: 1fr;
-        }
+@media (max-width: 768px) {
+    .depoimento .container {
+        grid-template-columns: 1fr;
+    }
 
-        .depoimento-conteudo {
-            padding: 0;
-            place-self: center;
-            padding: var(--espacamento-base) 0;
-        }
+    .depoimento-conteudo {
+        padding: 0;
+        place-self: center;
+        padding: var(--espacamento-base) 0;
+    }
 
-        .depoimento-conteudo blockquote span {
-            text-align: end;
-        }
+    .depoimento-conteudo blockquote span {
+        text-align: end;
+    }
 
-        .depoimento img {
-            display: none;
-        }
+    .depoimento img {
+        display: none;
     }
 }
 

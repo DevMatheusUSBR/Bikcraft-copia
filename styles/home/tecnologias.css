@@ -16,7 +16,7 @@
 
 .tecnologias-conteudo h2 {
     padding-top: 2rem;
-    padding-bottom: 1.25rem
+    padding-bottom: 1.25rem;
 }
 
 .tecnologias-conteudo .botao {
@@ -46,7 +46,7 @@
 .tecnologias-conteudo li h3 {
     color: var(--c-00);
     font-weight: 500;
-    font-size: 1.125;
+    font-size: 1.125rem;
     margin: .5rem 0;
 }
 

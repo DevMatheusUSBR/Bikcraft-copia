@@ -4,11 +4,11 @@
     gap: 2.5rem;
 }
 
-.pagina-bicicleta .bicicleta-card picture {
+.pagina-bicicleta .bicicleta-card .imagem-preco {
     position: relative;
 }
 
-.pagina-bicicleta .bicicleta-card picture a {
+.pagina-bicicleta .bicicleta-card .imagem-preco span {
     background: var(--c-12);
     color: var(--c-00);
     font-family: 'Roboto', sans-serif;

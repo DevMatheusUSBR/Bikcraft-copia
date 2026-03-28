@@ -38,7 +38,7 @@
 
     .bicicleta-seguro_conteudo {
         padding-top: var(--espacamento-secundario);
-        padding-bottom: var(--espacamento-secundario)
+        padding-bottom: var(--espacamento-secundario);
     }
 
     .bicicleta-seguro_conteudo .texto {

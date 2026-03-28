@@ -21,7 +21,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    padding: 1rem 0 0 0
+    padding: 1rem 0 0 0;
 }
 
 .bicicleta-card h3::before {

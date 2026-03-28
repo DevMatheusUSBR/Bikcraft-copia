@@ -16,11 +16,11 @@
 @import './home/seguros.css';
 
 /* Bicicletas */
-@import './bicletas/main.css';
+@import './bicicletas/main.css';
 
 /* Bicicleta */
 @import './bicicleta/main.css';
-@import './bicicleta/bicicetas.css';
+@import './bicicleta/bicicletas.css';
 @import './bicicleta/seguro.css';
 
 /* Seguros */
@@ -33,4 +33,4 @@
 @import './contato/locais.css';
 
 /* Termos e condições */
-@import './termos/main.css'
+@import './termos/main.css';
