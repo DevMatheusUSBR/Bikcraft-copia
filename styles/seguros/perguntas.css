@@ -23,7 +23,6 @@
 
 .perguntas dl dt {
     font-size: 1.125rem;
-    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     line-height: 1.33;
     color: var(--c-11);
@@ -50,7 +49,6 @@
 
 .perguntas dl dd {
     font-size: 1.125rem;
-    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     line-height: 1.33;
     color: var(--c-09);

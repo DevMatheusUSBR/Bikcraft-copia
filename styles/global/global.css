@@ -27,6 +27,15 @@ a {
     line-height: 1.5;
 }
 
+dt,
+label {
+    font-family: var(--fonte-principal);
+}
+
+dd {
+    font-family: var(--fonte-secundaria);
+}
+
 ul {
     list-style: none;
 }

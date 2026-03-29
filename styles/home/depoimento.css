@@ -1,7 +1,3 @@
-.depoimento {
-    background: var(--c-p1);
-}
-
 .depoimento .container {
     display: grid;
     grid-template-columns: 1fr 1fr;

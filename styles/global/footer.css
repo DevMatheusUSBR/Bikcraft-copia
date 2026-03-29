@@ -1,6 +1,5 @@
 .footer {
     padding: 3.75rem 0 2rem 0;
-    background: var(--c-12);
 }
 
 .footer .container {
@@ -75,7 +74,7 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .footer picture {
+    .logo-footer {
         display: none;
     }
 }

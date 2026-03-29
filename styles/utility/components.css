@@ -5,9 +5,6 @@
     padding-right: 1.25rem;
 }
 
-.bg-secundario {
-    background: var(--c-11);
-}
 
 .espacamento {
     padding-top: var(--espacamento-base);
@@ -19,18 +16,10 @@
     padding-bottom: var(--espacamento-secundario);
 }
 
-.ponto {
-    color: var(--c-p1);
-}
 
 .titulo {
-    color: var(--c-00);
     font-size: 4rem;
     font-weight: 600;
-}
-
-.titulo.preto {
-    color: var(--c-12);
 }
 
 .texto {
@@ -39,7 +28,7 @@
 }
 
 .botao {
-    background: linear-gradient(to right, #FB0, #F2A60C);
+    background: var(--gradiente-botao);
     color: var(--c-p5);
     font-size: 1.25rem;
     font-weight: 600;
@@ -51,7 +40,7 @@
 }
 
 .botao:hover {
-    background: linear-gradient(to right, #ffd24a, #ffbe1a);
+    background: var(--gradiente-botao-hover);
     color: #1a1a1a;
 }
 
