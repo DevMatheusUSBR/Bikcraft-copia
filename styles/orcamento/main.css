@@ -1,0 +1,121 @@
+/* Layout principal */
+.orcamento-formulario {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+}
+
+/* Títulos */
+.orcamento-formulario h2 {
+    font-size: .75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--c-05);
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    grid-column: 1 / -1;
+}
+
+.orcamento-formulario h2::before {
+    content: '';
+    display: inline-block;
+    width: 4px;
+    height: 8px;
+    background-color: var(--c-p1);
+}
+
+/* Seção */
+.orcamento-formulario_tipo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+    padding: 3.75rem 3.75rem 2.5rem 2.5rem;
+}
+
+/* Inputs */
+.orcamento-formulario input {
+    opacity: 0;
+    position: absolute;
+}
+
+.orcamento-formulario input:checked+label {
+    background: var(--c-00);
+    color: var(--c-11);
+}
+
+.orcamento-formulario input:checked+label::before {
+    box-shadow: inset 0 0 0 3px var(--c-00), inset 0 0 0 6px var(--c-06);
+}
+
+.orcamento-formulario #bikcraft:checked~.orcamento-formulario_bikcraft,
+.orcamento-formulario #seguro:checked~.orcamento-formulario_seguro {
+    margin-top: 2.5rem;
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+}
+
+.orcamento-formulario_bikcraft input:checked+label+.orcamento-bikcraft_conteudo {
+    background: var(--c-00);
+    padding: 1rem;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-items: center;
+}
+
+/* Labels */
+.orcamento-formulario_tipo label {
+    color: var(--c-04);
+    background: var(--c-10);
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: .5rem;
+}
+
+.orcamento-formulario_tipo label::before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border: 1px solid var(--c-07);
+    border-radius: 50%;
+}
+
+/* Conteúdo Bikcrafts */
+/* .orcamento-bikcraft_conteudo {
+    background: var(--c-00);
+    padding: 1rem;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-items: center;
+} */
+
+.orcamento-bikcraft_conteudo ul {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.orcamento-bikcraft_conteudo li {
+    font-family: 'Poppins', sans-serif;
+    font-size: .75rem;
+    font-weight: 500;
+    color: var(--c-08);
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+}
+
+.orcamento-bikcraft_conteudo li img {
+    width: 16px;
+}

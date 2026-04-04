@@ -62,6 +62,10 @@
     font-weight: 500;
 }
 
+.none {
+    display: none;
+}
+
 @media (max-width: 1200px) {
     .titulo {
         font-size: 3.5rem;

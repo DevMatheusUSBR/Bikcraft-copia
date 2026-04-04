@@ -32,5 +32,8 @@
 @import './contato/main.css';
 @import './contato/locais.css';
 
+/* Orçamento */
+@import './orcamento/main.css';
+
 /* Termos e condições */
 @import './termos/main.css';
