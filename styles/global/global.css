@@ -54,3 +54,11 @@ img {
 img[src$=".jpg"] {
     border-radius: 4px;
 }
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--c-07);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}

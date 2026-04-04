@@ -72,14 +72,6 @@
     width: 100%;
 }
 
-.formulario-preencher form input::placeholder,
-.formulario-preencher form textarea::placeholder {
-    color: var(--c-07);
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-}
-
 .formulario-preencher form button {
     border: none;
     grid-column: 1 / -1;
